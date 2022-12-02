@@ -6,3 +6,4 @@ Starting point for the Advanced Django course. This is the equivalent of the fol
 $ django-admin.py startproject blango
 ```
 # codio-blango
+# codio-blango
