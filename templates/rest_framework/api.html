@@ -1,0 +1,11 @@
+{% extends "rest_framework/base.html" %}
+{% block title %}{% if name %}{{ name }} – {% endif %} Blango REST API{% endblock %}
+{% block title %}{% if name %}{{ name }} – {% endif %} Blango REST API{% endblock %}
+{% block style %}
+    {{ block.super }}
+    <style>
+        div .navbar {
+            border-top-color: #1E90FF;
+        }
+    </style>
+{% endblock %}
